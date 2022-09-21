@@ -255,7 +255,8 @@ MonoBehaviour:
   - {fileID: 4495139412877421846}
   m_enterPoint: {fileID: 298194616428252356}
   m_exitPoint: {fileID: 4495139412877421846}
-  pipeSpeed: 4
+  pipeSpeed: 6
+  pipeLaunchSpeed: 10
 --- !u!1 &5757736741030681753
 GameObject:
   m_ObjectHideFlags: 0
