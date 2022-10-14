@@ -37,6 +37,9 @@ public class PlayerController : MonoBehaviour
 	private bool m_FacingRight = true;  // For determining which way the player is currently facing.
 	private Vector3 m_Velocity = Vector3.zero;
 
+	//public int currentWeapon;
+	//public transform[] weapons; //Array of weapons
+
 	[Header("Events")]
 	[Space]
 
@@ -202,4 +205,15 @@ public class PlayerController : MonoBehaviour
 		//theScale.x *= -1;
 		//transform.localScale = theScale;
 	}
+	/*
+	public void changeWeapon(int num) {
+		currentWeapon = num;
+	 // Cycle through the weapons that we have in our weapons array.
+		for(int i = 0; i < weapons.Length; i++) {
+			if(i == num)
+				weapons[i].gameObject.SetActive(true);
+			else
+				weapons[i].gameObject.SetActive(false);
+		}
+	} */
 }
