@@ -5,7 +5,7 @@ using UnityEngine;
 public class Lever : MonoBehaviour
 {
     public Door door;
-    private bool hasCollide = false;
+    public bool hasCollide = false;
     void OnTriggerEnter2D(Collider2D hitInfo)
     {
         if(!hasCollide && door.isClose && hitInfo.CompareTag("Player"))
